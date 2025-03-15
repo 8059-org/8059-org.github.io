@@ -12,9 +12,15 @@
 }
 
 body {
-	transition: background-color 4s ease-in-out;
+	transition: background-color 5s ease-in-out;
 }
 
-a {
-    text-decoration: none !important;
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	padding: 2rem 0 1rem;
+	text-transform: uppercase;
+}
+
+strong {
+	text-transform: uppercase;
 }
